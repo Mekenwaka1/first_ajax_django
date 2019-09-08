@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title></title>
     {% load static %}
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
-    <script type="text/javascript" src="{% static 'js/main.js' %}"> </script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"
+    ></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
   </head>
   <body>
+    <section id="step3">
+      <h3>Step 3</h3>
+      <button id="button1">Run AJAX Request to Ping/Pong</button>
+    </section>
+    <section id="step7">
+      <h3>Step 7</h3>
+      <button id="button2">Run AJAX Request to Count</button>
+    </section>
+    <section id="step8">
+      <h3>Step 8</h3>
+      <button id="button3">Run AJAX Request to Time</button>
+    </section>
+    <section id="step9">
+      <h3>Step 9</h3>
+      <button id="button4">Run AJAX Request to A Car</button>
+      <ul id="cars"></ul>
+    </section>
   </body>
 </html>
